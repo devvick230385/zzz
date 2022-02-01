@@ -1,0 +1,58 @@
+.contain {
+  background-image: url("../../assets/Images/IMG-20220125-WA0003.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.line {
+  border-right: 1px solid #ccc;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.bodyBox {
+  border-radius: 15px;
+}
+
+.scroll {
+  height: 70vh;
+  overflow: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  /* margin-bottom: 10px; */
+  flex-wrap: wrap;
+}
+
+.main .left {
+  flex: 10%;
+  /* background-color: ; */
+}
+
+.main .right {
+  flex: 0.8;
+}
